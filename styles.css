@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.aside-covid {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 698px) {
+  .aside-covid {
+    font-size: 12px;
+  }
+}
+
+.container-text {
+  width: 80%;
+  text-align: center;
+}
+
+.header-top {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.text-logo {
+  width: 100%;
+}
+
+.container-input {
+  width: 100%;
+}
+
+.input-hotel {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px 10px 50px;
+  background-image: url(assets/svg/search.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+}
+
+.section-search-hotel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container-title {
+  margin-top: 40px;
+  position: relative;
+}
+
+.title {
+  font-size: 24px;
+  width: 120px;
+  height: 32px;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #6d6d6d;
+}
+
+@media (min-width: 699px) {
+  .hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.container-hotel {
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.img-hotel {
+  width: 250px;
+  height: 250px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img-hotel:hover {
+  filter: grayscale();
+}
+
+.container-hotel:nth-child(1) .img-hotel {
+  background-image: url("assets/img/copacabana-palace-square.jpg");
+}
+
+.container-hotel:nth-child(2) .img-hotel {
+  background-image: url("assets/img/windsor-leme-square.jpg");
+}
+
+.container-hotel:nth-child(3) .img-hotel {
+  background-image: url("assets/img/hotel-fasano-square.jpg");
+}
+
+.container-hotel:nth-child(4) .img-hotel {
+  background-image: url("assets/img/hotel-nacional-square.jpg");
+}
+
+@media (max-width: 698px) {
+  .img-hotel {
+    width: 100%;
+    height: 0;
+  }
+
+  .container-hotel:nth-child(1) .img-hotel {
+    background-image: url("assets/img/copacabana-palace-698.jpg");
+    padding-bottom: 66.666666667%;
+  }
+
+  .container-hotel:nth-child(2) .img-hotel {
+    background-image: url("assets/img/windsor-leme-698.jpg");
+    padding-bottom: 65.759312321%;
+  }
+
+  .container-hotel:nth-child(3) .img-hotel {
+    background-image: url("assets/img/hotel-fasano-698.jpg");
+    padding-bottom: 66.76217765%;
+  }
+
+  .container-hotel:nth-child(4) .img-hotel {
+    background-image: url("assets/img/hotel-nacional-698.jpg");
+    padding-bottom: 66.76217765%;
+  }
+}
+
+.title-hotel {
+  margin-top: 20px;
+}
+
+.container-rating {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container-rating-svg {
+  height: 20px;
+  width: 100px;
+}
+
+.title-rating {
+  margin-right: 10px;
+}
+
+.star {
+  height: 25px;
+}
+
+.container-address {
+  margin-top: 20px;
+  max-width: 250px;
+}
+
+.address {
+  display: inline-block;
+  margin-top: 10px;
+  color: #6d6d6d;
+}
+
+.container-how-to-get {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.title-how-to-get {
+  text-decoration: underline;
+}
+
+.container-assessment {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-assessment .container-rating-svg {
+  margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
