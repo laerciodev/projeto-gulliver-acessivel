@@ -205,6 +205,7 @@ label[for="search-hotel"] {
 
 .address {
   display: inline-block;
+  line-height: 24px;
   margin-top: 10px;
   color: #6d6d6d;
 }
@@ -219,14 +220,17 @@ label[for="search-hotel"] {
   text-decoration: underline;
 }
 
-.container-assessment {
+.btn-open-hotel {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-assessment .container-rating-svg {
-  margin-top: 10px;
+  display: inline-block;
+  background-color: #FF5A5F;
+  color: #FFF;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
 }
 
 footer {
