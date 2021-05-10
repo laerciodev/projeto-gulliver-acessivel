@@ -1,6 +1,6 @@
-# projeto-gulliver-responsivo
+# projeto-gulliver-acessivel
 
-Projeto com o objetivo de criar um layout responsivo para o cenário de hospedagem do projeto Gulliver Traveller
+Projeto com o objetivo de criar um layout responsivo e acessivel para o cenário de hospedagem do projeto Gulliver Traveller
 
 ## Versão Desktop
 
