@@ -26,7 +26,12 @@
     <section class="section-search-hotel">
       <div class="container-input">
         <label for="search-hotel">Buscar hotel</label>
-        <input id="search-hotel" class="input-hotel" type="text" placeholder="Buscar hotel" />
+        <input
+          id="search-hotel"
+          class="input-hotel"
+          type="text"
+          placeholder="Buscar hotel"
+        />
       </div>
     </section>
     <main class="main">
@@ -51,20 +56,23 @@
           <div class="container-address">
             <h4 class="title-address">Onde fica?</h4>
             <span class="address"
-              >Av. Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ, CEP: 22021-001
+              >Av. Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ, CEP:
+              22021-001
             </span>
           </div>
           <div class="container-how-to-get">
             <a
+              aria-describedby="location-copacabana-palace"
               target="_blank"
               href="https://www.google.com/maps/place/Copacabana+Palace,+A+Belmond+Hotel,+Rio+de+Janeiro/@-22.9673111,-43.1789541,15z/data=!4m8!3m7!1s0x0:0xef2e5118ccad88ae!5m2!4m1!1i2!8m2!3d-22.9673273!4d-43.1789254"
               class="title-how-to-get"
             >
-              saiba como chegar
+              <span id="location-copacabana-palace">
+                Localização do Copacabana Palace
+              </span>
               <img src="assets/svg/pin.svg" />
             </a>
           </div>
-          <a href="" role="button" class="btn-open-hotel">Saiba mais</a>
         </li>
         <!-- Windsor Leme -->
         <li class="container-hotel">
@@ -86,15 +94,15 @@
           </div>
           <div class="container-how-to-get">
             <a
+              aria-describedby="location-windsor"
               target="_blank"
               href="https://www.google.com/travel/hotels/entity/CgoIuor367m-gqwzEAE/lightbox/CAISFk5udkhVdHlqVDJ1aTVBWnNLUGtOeFE?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4371335%2C4401769%2C4419364%2C4482438%2C4486153%2C4509341%2C4509838%2C4517258%2C4524133%2C4533882%2C4536454%2C4270859%2C4284970%2C4291517&hl=pt-BR&gl=br&ssta=1&grf=EmIKLAgOEigSJnIkKiIKBwjlDxAEGBoSBwjlDxAEGBsgADAeQMoCSgcI5Q8QBBgZCjIIDBIuEiyyASkSJwolCiMweDk5ODAwNmNjOGQ4ZmI3OjB4MzM1ODA5ZjM5ZDdkYzUzYQ&rp=ELqK9-u5voKsMxC6ivfrub6CrDM4AkAASAHAAQI&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiYlaucnprwAhUAAAAAHQAAAAAQAw&utm_campaign=sharing&utm_medium=link&utm_source=htls"
               class="title-how-to-get"
             >
-              saiba como chegar
+              <span id="location-windsor">Localização do Windsor Leme</span>
               <img src="assets/svg/pin.svg" />
             </a>
           </div>
-          <a href="" role="button" class="btn-open-hotel">Saiba mais</a>
         </li>
         <!-- Hotel Fasano -->
         <li class="container-hotel">
@@ -111,20 +119,21 @@
           <div class="container-address">
             <h4 class="title-address">Onde fica?</h4>
             <span class="address">
-              Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro - RJ, CEP: 22420-002
+              Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro - RJ, CEP:
+              22420-002
             </span>
           </div>
           <div class="container-how-to-get">
             <a
               target="_blank"
+              aria-describedby="location-fasano"
               href="https://www.google.com.br/maps/place/Hotel+Fasano+Rio+de+Janeiro/@-22.9870167,-43.196175,15z/data=!4m2!3m1!1s0x0:0xc43279b7a54be108?sa=X&ved=2ahUKEwiI1eDYnZrwAhUOpZUCHcawAT0Q_BIwHXoECEEQBQ"
               class="title-how-to-get"
             >
-              saiba como chegar
+              <span id="location-fasano">Localização do Hotel Fasano</span>
               <img src="assets/svg/pin.svg" />
             </a>
           </div>
-          <a href="" role="button" class="btn-open-hotel">Saiba mais</a>
         </li>
         <!-- Hotel Nacional -->
         <li class="container-hotel">
@@ -146,15 +155,17 @@
           </div>
           <div class="container-how-to-get">
             <a
+              aria-describedby="location-hotel-nacional"
               target="_blank"
               href="https://www.google.com/maps/place/Hotel+Nacional+Rio+de+Janeiro/@-22.9976718,-43.2569484,15z/data=!4m2!3m1!1s0x0:0xef6b6062f52543cc?sa=X&ved=2ahUKEwjW8I6OnZrwAhXkKLkGHc1UC-cQ_BIwDHoECC4QBQ"
               class="title-how-to-get"
             >
-              saiba como chegar
+              <span id="location-hotel-nacional">
+                Localização do Hotel Nacionald
+              </span>
               <img src="assets/svg/pin.svg" />
             </a>
           </div>
-          <a href="" role="button" class="btn-open-hotel">Saiba mais</a>
         </li>
       </ul>
     </main>
