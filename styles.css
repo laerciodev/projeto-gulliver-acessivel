@@ -50,6 +50,10 @@ body {
   width: 100%;
 }
 
+label[for="search-hotel"] {
+  visibility: hidden;
+}
+
 .container-input {
   width: 100%;
 }
